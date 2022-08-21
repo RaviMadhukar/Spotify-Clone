@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&display=swap');
+body{
+    background-color: rgb(242, 242, 197);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.brand img{
+    max-width: 130px;
+    margin: 10px 20px;
+    width: 100%;
+    border-radius: 100px;
+}
+
+.brand h1{
+    margin-left: 160px;
+    margin-top: -120px;
+    font-size: 2rem;
+    position: sticky;
+}
+
+.manu{
+    font-family: 'Edu TAS Beginner', cursive;
+    background:linear-gradient(white,black);
+}
+
+.manu nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 100px;
+}
+
+.manu nav ul li{                                   
+    padding: 30px 0;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 170px;
+    cursor: pointer;
+}
+
+.container{
+    min-height: 55vh;
+    background-color: black;
+    color: white;
+    margin: 8px auto;
+    width: 80%;
+    border-radius: 15px;
+    padding: 34px;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 40px;
+}
+ 
+#mybar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.bottom{
+    background:transparent linear-gradient(black,white);
+    min-height: 100px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.icon{
+    font-size: 35px;
+    bottom: 0;
+}
+
+.icon i{
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    margin-top: 20px;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.songitem {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 50%;
+    color: black;
+    font-size: 20px;
+    margin: 12px 0;
+    justify-content: space-between;
+    border-radius: 34px;
+    align-items: center;
+}
+
+.songitem img{
+    width: 45px;
+    margin: 0 23px;
+    border-radius: 100px;
+}
+
+.songitem i{
+    margin: 0 23px;
+}
+
+.songlist1 i{
+    cursor: pointer;
+}
+
+#mastersongName { 
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 950px){
+    .songitem{
+        width: 45vw;
+    }
+    
+}
+
+@media screen and (max-width: 900px){
+    .songitem{
+        width: 50vw;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .songitem{
+        width: 80vw;
+    }
+}

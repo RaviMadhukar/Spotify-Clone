@@ -15,9 +15,9 @@ let songs = [
      { songName: "Love Me Like U ", filePath: "song/song1.mp3", coverPath: "bg/bg1.jpg"},
      { songName: "Shiv Sama Rahe", filePath: "song/song2.mp3", coverPath: "bg/bg2.jpg"},
      { songName: "Bhola Hai Bhandari", filePath: "song/song3.mp3", coverPath: "bg/bg3.jpg"},
-     { songName: "Parvati Boli Shankar Se", filePath: "song/song4.mp3", coverPath: "bg/bg4.jpg"},
+     { songName: "Parvati Boli Shankar", filePath: "song/song4.mp3", coverPath: "bg/bg4.jpg"},
      { songName: "Har Har Sambhu", filePath: "song/song5.mp3", coverPath: "bg/bg5.jpg"},
-     { songName: "Teri Mitti Mein Jawa", filePath: "song/song6.mp3", coverPath: "bg/bg6.jpg"},
+     { songName: "Kasri", filePath: "song/song6.mp3", coverPath: "bg/bg6.jpg"},
 ]
 
 songitem.forEach((element,i) => {

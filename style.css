@@ -150,14 +150,11 @@ body{
     }
 }
 
-@media screen and (max-width: 400px){
-    .songitem{
-        width: 80vw;
-    }
+@media screen and (max-width: 360px){
 
     .songitem img{
         width: 45px;
-        margin: 0 18px;
+        margin: 0 15px;
         border-radius: 100px;
     }
 
@@ -173,6 +170,10 @@ body{
         border-radius: 34px;
         align-items: center;
     }    
+
+    .songitem i{
+        margin: 0 15px;
+    }
 
     .icon{
         font-size: 25px;

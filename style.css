@@ -150,7 +150,11 @@ body{
     }
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 400px){
+     
+    .brand h1{
+        font-size: 1.8rem;
+    }
 
     .songitem img{
         width: 45px;
@@ -164,7 +168,7 @@ body{
         background-color: white;
         width: 100%;
         color: black;
-        font-size: 15px;
+        font-size: 17px;
         margin: 8px 0;
         justify-content: space-between;
         border-radius: 34px;

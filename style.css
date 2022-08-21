@@ -144,13 +144,7 @@ body{
     
 }
 
-@media screen and (max-width: 600px){
-    .songitem{
-        width: 80vw;
-    }
-}
-
-@media screen and (max-width: 400px){
+@media screen and (max-width: 710px){
      
     .brand h1{
         font-size: 1.8rem;
@@ -169,7 +163,6 @@ body{
         width: 100%;
         color: black;
         font-size: 15px;
-        margin: 8px 0;
         justify-content: space-between;
         border-radius: 34px;
         align-items: center;

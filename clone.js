@@ -17,7 +17,7 @@ let songs = [
      { songName: "Bhola Hai Bhandari", filePath: "song/song3.mp3", coverPath: "bg/bg3.jpg"},
      { songName: "Parvati Boli Shankar", filePath: "song/song4.mp3", coverPath: "bg/bg4.jpg"},
      { songName: "Har Har Sambhu", filePath: "song/song5.mp3", coverPath: "bg/bg5.jpg"},
-     { songName: "Kasri", filePath: "song/song6.mp3", coverPath: "bg/bg6.jpg"},
+     { songName: "Kesari", filePath: "song/song6.mp3", coverPath: "bg/bg6.jpg"},
 ]
 
 songitem.forEach((element,i) => {
